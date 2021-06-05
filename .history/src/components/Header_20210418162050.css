@@ -1,0 +1,72 @@
+.header__logo {
+    width: 5%;
+}
+
+.header__link {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+    font-size: 17px !important;
+}
+
+.header__link:hover {
+    background: -webkit-linear-gradient(#FCFE19 22.92%, #47EAD0 60%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.header__border {
+    height: 0.3rem;
+    background: radial-gradient(50% 50% at 50% 50%, #FCFE19 0%, #47EAD0 100%);
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+    color: #47EAD0 !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: #47EAD0 !important;
+}
+
+.MuiSwitch-switchBase {
+    color: #FCFE19 !important;
+}
+
+
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+    background: url('../img/fr-flag.png') !important;
+    background-size: 18px 18px !important;
+    background-repeat: no-repeat !important;    
+    background-color: #FFFFFF !important;
+}
+
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background: url('../img/sun.png') !important;
+    background-size: 18px 18px !important;
+    background-repeat: no-repeat !important;    
+    background-color: #FFFFFF !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+    opacity: 0.9 !important;
+}
+
+.MuiSwitch-root {
+    padding: 10px !important;
+}
+
+.MuiSwitch-track {
+    background: url('../img/fr-flag.png') !important;
+    background-size: 18px 18px !important;
+    background-repeat: no-repeat !important;    
+    background-color: #FFFFFF !important;
+    opacity: 0.9 !important;
+}
+

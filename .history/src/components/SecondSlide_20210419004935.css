@@ -1,0 +1,6 @@
+.aboutMe__container {
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(45deg, #FCFE19, #47EAD0) ;
+    border-radius: 15px;
+}

@@ -1,0 +1,40 @@
+.footer__container {
+    display: block;
+    width: 100%;
+    border-bottom: none;
+    position: relative;
+}
+
+.footer__container:after {
+    content:"";
+    background: -webkit-linear-gradient(left, #47EAD0 0%, #FCFE19 50%, #47EAD0 100%);
+    display: block;
+    height:0.3em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.MuiSvgIcon-root {
+    font-size: 3em !important;
+}
+
+.MuiSvgIcon-root:hover {
+    color: #47EAD0;
+}
+
+.footer__copyright {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1.5px #FCFE19;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+
+}

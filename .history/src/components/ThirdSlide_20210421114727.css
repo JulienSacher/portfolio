@@ -1,0 +1,50 @@
+.myWork__title {
+    font-family: 'Bungee', cursive;
+    font-size: 3em;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FCFE19;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+
+.thirdSlide__imgContainer {
+    height: 83%;
+}
+
+.img-thumbnail {
+    
+    border: none !important;
+    background-color: transparent !important;
+    opacity: 0.5 !important;
+}
+
+.thirdSlide__border {
+    position:relative;
+}
+  
+.thirdSlide__border::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius: 5px; 
+    padding:5px;
+    background:linear-gradient(#47EAD0 35.92%, #FCFE19 60%); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    position: absolute;
+    bottom: 20px;
+}

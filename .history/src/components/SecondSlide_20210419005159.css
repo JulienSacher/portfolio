@@ -1,0 +1,10 @@
+.aboutMe__container {
+    border-radius:50px; /*1*/
+  border:4px solid transparent; /*2*/
+  background:linear-gradient(45deg,#FCFE19,#47EAD0) border-box; /*3*/
+  -webkit-mask: /*4*/
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; /*5'*/
+  mask-composite: exclude; /*5*/
+}

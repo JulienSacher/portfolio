@@ -1,0 +1,38 @@
+.firstSlide__name {
+    font-family: 'Bungee', cursive;
+    font-size: 3em;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #FCFE19;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+
+.firstSlide__job {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 3em;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #33FF12;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #47EAD0 !important;
+}
+
+.firstSlide__img {
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
