@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
-import FirstSlide from './components/FirstSlide';
-import SecondSlide from './components/SecondSlide';
-import ThirdSlide from './components/ThirdSlide';
-import FourthSlide from './components/FourthSlide';
+import FirstSection from './components/FirstSection';
+import SecondSection from './components/SecondSection';
+import ThirdSection from './components/ThirdSection';
+import FourthSection from './components/FourthSection';
 import Footer from './components/Footer';
 import { ThemeProvider } from "styled-components";
 
@@ -28,16 +28,16 @@ function App() {
     <div className="app" id="home" theme={theme} setTheme={setTheme}>
       <Header />
       <div className="home">
-      <FirstSlide />
+      <FirstSection />
       </div>
       <div className="about" id="about">
-      <SecondSlide />
+      <SecondSection />
       </div>
       <div className="work" id="work">
-      <ThirdSlide />
+      <ThirdSection />
       </div>
       <div className="contact" id="contact">
-      <FourthSlide />
+      <FourthSection />
       </div>
       <Footer />
     </div>

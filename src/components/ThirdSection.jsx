@@ -1,10 +1,10 @@
 import React from 'react';
-import './ThirdSlide.css';
+import './ThirdSection.css';
 import { Container, Row, Col, Figure } from 'react-bootstrap';
 import exotic from '../img/exotic-import.jpg';
 import snack from '../img/snack-atlass.jpg';
 
-function ThirdSlide() {
+function ThirdSection() {
     return (
         <Container className="thirdSlide__Container">
             <h2 className="myWork__title text-center pb-1">My Work</h2>
@@ -50,4 +50,4 @@ function ThirdSlide() {
     )
 }
 
-export default ThirdSlide
+export default ThirdSection

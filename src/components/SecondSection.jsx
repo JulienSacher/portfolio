@@ -1,8 +1,8 @@
 import React from 'react'
-import './SecondSlide.css';
+import './SecondSection.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-function SecondSlide() {
+function SecondSection() {
     return (
         <Container className="aboutMe__height">
             <h2 className="aboutMe__title text-center pb-1">About Me</h2>
@@ -73,4 +73,4 @@ function SecondSlide() {
 }
 
 
-export default SecondSlide
+export default SecondSection

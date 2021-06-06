@@ -1,9 +1,8 @@
 import React from 'react';
-import './FourthSlide.css';
+import './FourthSection.css';
 import { Container, Col, Form, Button } from 'react-bootstrap';
 
-
-function FourthSlide() {
+function FourthSection() {
     return (
         <Container className="fourthSection__container">
             <h2 className="contactMe__title text-center pb-1">Contact Me</h2>
@@ -32,4 +31,4 @@ function FourthSlide() {
     )
 }
 
-export default FourthSlide
+export default FourthSection

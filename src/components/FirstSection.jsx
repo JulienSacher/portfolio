@@ -1,11 +1,11 @@
 import React from 'react';
-import './FirstSlide.css';
+import './FirstSection.css';
 import { motion } from "framer-motion"
 import { Row, Col, Container, Image } from 'react-bootstrap';
 import avatarDark from '../img/avatar-dark.png';
 
 
-function FirstSlide() {
+function FirstSection() {
     const line1 = "Julien Sacher"
     const line2 = "Web Developer"
 
@@ -63,4 +63,4 @@ function FirstSlide() {
     )
 }
 
-export default FirstSlide
+export default FirstSection
