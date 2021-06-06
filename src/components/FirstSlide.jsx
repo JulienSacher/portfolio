@@ -1,6 +1,5 @@
 import React from 'react';
 import './FirstSlide.css';
-// import Framer Motion
 import { motion } from "framer-motion"
 import { Row, Col, Container, Image } from 'react-bootstrap';
 import avatarDark from '../img/avatar-dark.png';

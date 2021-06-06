@@ -8,13 +8,18 @@
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
-         1px 1px 0 #000;
+        1px 1px 0 #000;
 }
 
 .contactMe__container {
-    width: 50%;
+    width: 90%;
     background: -webkit-linear-gradient(#FCFE19 35.92%, #47EAD0 60%);
     border-radius: 40px;
+}
+
+@media (min-width: 992px) {
+    .contactMe__container {
+        width: 60%;    }   
 }
 
 .contactMe__subTitle {
@@ -28,21 +33,49 @@
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
-         1px 1px 0 #000;
+        1px 1px 0 #000;
     font-family: 'Alegreya Sans SC', sans-serif !important;
 
 }
 
 .contactMe__formContainer {
-    width: 98%; 
+    width: 96%; 
     background:  #1C1C1C !important;
     padding: 2em 2em !important;
     justify-content: center;
     flex-direction: column;
     display: flex;
     border-radius: 37px;
-    margin: 0.3em 0.3em 0.3em 0.37em;
+    margin: 0.3em 0.3em 0.3em 0.35em;
     
+}
+
+@media (min-width: 540px) {
+    .contactMe__formContainer {
+        width: 97.5%;
+        margin: 0.3em 0.3em 0.3em 0.3em;
+    }   
+}
+
+@media (min-width: 768px) {
+    .contactMe__formContainer {
+        width: 98.2%;
+        margin: 0.3em 0.3em 0.3em 0.3em;
+    }   
+}
+
+@media (min-width: 992px) {
+    .contactMe__formContainer {
+        width: 98.2%;
+        margin: 0.3em 0.3em 0.3em 0.3em;
+    }   
+}
+
+@media (min-width: 1200px) {
+    .contactMe__formContainer {
+        width: 98.7%;
+        margin: 0.3em 0.3em 0.3em 0.3em;
+    }   
 }
 
 .form-control {
@@ -73,5 +106,21 @@
 
 .fourthSection__container {
     min-height: 100vh;
-    padding-top: 6%;
+    padding-top: 13%;
+}
+
+@media (min-width: 768px) {
+    .fourthSection__container {
+        padding-top: 27% !important;    }   
+}
+
+@media (min-width: 992px) {
+    .fourthSection__container {
+        padding-top: 21% !important;    }   
+}
+
+@media (min-width: 1200px) {
+    .fourthSection__container {
+        padding-top: 12% !important;
+    }   
 }

@@ -4,9 +4,27 @@
 
 .aboutMe__height {
     min-height: 100vh;
-    padding-top: 6% !important;
+    padding-top: 13% !important;
 }
-  
+
+@media (min-width: 768px) {
+    .aboutMe__height {
+        padding-top: 27% !important;    
+    }   
+}
+
+@media (min-width: 992px) {
+    .aboutMe__height {
+        padding-top: 21% !important;    
+    }   
+}
+
+@media (min-width: 1200px) {
+    .aboutMe__height {
+        padding-top: 12% !important;
+    }   
+}
+
 .aboutMe__container::before {
     content:"";
     position:absolute;
@@ -34,13 +52,19 @@
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
-         1px 1px 0 #000;
+        1px 1px 0 #000;
 }
 
 .aboutMe__desc {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 700;
     font-size: 18px;
+}
+
+@media (min-width: 992px) {
+    .aboutMe__desc {
+        padding-right: .5rem!important;
+    } 
 }
 
 .aboutMe__sub {
@@ -54,7 +78,7 @@
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
-         1px 1px 0 #000;
+        1px 1px 0 #000;
 }
 
 .progress {
