@@ -5,7 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 function SecondSection() {
     return (
         <Container className="aboutMe__height">
+            <div>
             <h2 className="aboutMe__title text-center pb-1">About Me</h2>
+            </div>
             <div className="aboutMe__container">
                 <Row className="d-flex align-items-center">
                     <Col sm={6}>

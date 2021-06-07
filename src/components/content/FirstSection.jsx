@@ -2,8 +2,7 @@ import React from 'react';
 import './FirstSection.css';
 import { motion } from "framer-motion"
 import { Row, Col, Container, Image } from 'react-bootstrap';
-import avatarDark from '../img/avatar-dark.png';
-
+import avatarDark from '../../img/avatar-dark.png';
 
 function FirstSection() {
     const line1 = "Julien Sacher"

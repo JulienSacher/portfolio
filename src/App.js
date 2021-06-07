@@ -1,47 +1,33 @@
-import { useState } from 'react';
-import './App.css';
-import Header from './components/Header';
-import FirstSection from './components/FirstSection';
-import SecondSection from './components/SecondSection';
-import ThirdSection from './components/ThirdSection';
-import FourthSection from './components/FourthSection';
-import Footer from './components/Footer';
-import { ThemeProvider } from "styled-components";
-
-const lightTheme = {
-  pageBackground: "white",
-}
-
-const darkTheme = {
-  pageBackground: "#1C1C1C"
-}
-
-const themes = {
-  light: lightTheme,
-  dark: darkTheme
-}
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/content/Header";
+import FirstSection from "./components/content/FirstSection";
+import SecondSection from "./components/content/SecondSection";
+import ThirdSection from "./components/content/ThirdSection";
+import FourthSection from "./components/content/FourthSection";
+import Footer from "./components/content/Footer";
+import ThemeContextProvider from "./context/ThemeContext";
 
 function App() {
-  const [theme, setTheme] = useState("dark")
   return (
-    <ThemeProvider theme={themes[theme]}>
-    <div className="app" id="home" theme={theme} setTheme={setTheme}>
-      <Header />
-      <div className="home">
-      <FirstSection />
-      </div>
-      <div className="about" id="about">
-      <SecondSection />
-      </div>
-      <div className="work" id="work">
-      <ThirdSection />
-      </div>
-      <div className="contact" id="contact">
-      <FourthSection />
-      </div>
-      <Footer />
+    <div className="app" id="home">
+      <ThemeContextProvider>
+        <Header />
+        <div className="home">
+          <FirstSection />
+        </div>
+        <div className="about" id="about">
+          <SecondSection />
+        </div>
+        <div className="work" id="work">
+          <ThirdSection />
+        </div>
+        <div className="contact" id="contact">
+          <FourthSection />
+        </div>
+        <Footer />
+      </ThemeContextProvider>
     </div>
-    </ThemeProvider>
   );
 }
 

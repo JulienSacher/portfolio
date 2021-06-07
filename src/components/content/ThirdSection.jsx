@@ -1,8 +1,8 @@
 import React from 'react';
 import './ThirdSection.css';
 import { Container, Row, Col, Figure } from 'react-bootstrap';
-import exotic from '../img/exotic-import.jpg';
-import snack from '../img/snack-atlass.jpg';
+import exotic from '../../img/exotic-import.jpg';
+import snack from '../../img/snack-atlass.jpg';
 
 function ThirdSection() {
     return (

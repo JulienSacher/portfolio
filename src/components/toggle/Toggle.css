@@ -1,0 +1,26 @@
+.btn__toggle {
+    width: 3.4em;
+    height: 2em;
+    background: #F1F1F1;
+    border: 2px solid #47EAD0;  
+    color: #1C1C1C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+}
+
+.toggle.goLight {
+    background: #1C1C1C;
+    color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.toggle.goDark {
+    background: #F1F1F1;
+    color: #1C1C1C;
+    border-radius: 10px;
+}
