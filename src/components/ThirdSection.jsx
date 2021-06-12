@@ -19,7 +19,7 @@ function ThirdSection() {
               />
 
               <Figure.Caption className="text-center">
-                <a href="" className="thirdSlide__caption">
+                <a href="#" className="thirdSlide__caption">
                   Exotic Import
                   <br />
                   ReactJS/NodeJS
@@ -36,10 +36,12 @@ function ThirdSection() {
                 src={snack}
                 className="img-fluid thirdSlide__img"
               />
-              <Figure.Caption className="text-center thirdSlide__caption">
-                Snack Atlass
-                <br />
-                Html/Sass
+              <Figure.Caption className="text-center">
+                <a href="#" className="thirdSlide__caption">
+                  Snack Atlass
+                  <br />
+                  Html/Sass
+                </a>
               </Figure.Caption>
             </Figure>
           </div>

@@ -44,8 +44,6 @@
   font-family: "Bungee", cursive;
   font-size: 3em;
   -webkit-text-stroke: 3px #fcfe19;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .aboutMe__desc {
@@ -64,9 +62,7 @@
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 2.4em;
   font-weight: 700;
-  -webkit-text-stroke: 1.5px #33ff12;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
+  -webkit-text-stroke: 1px #33ff12;
 }
 
 .progress {

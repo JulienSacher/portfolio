@@ -31,10 +31,7 @@
 .footer__copyright {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 2em;
-  font-weight: 700;
-  color: #ffffff;
+  font-weight: 700 !important;
   -webkit-text-stroke: 1px #fcfe19;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Alegreya Sans SC", sans-serif !important;
 }

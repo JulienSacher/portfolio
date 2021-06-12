@@ -9,6 +9,7 @@ body {
   --background: #1C1C1C !important;
   --progress: #FFFFFF !important;
   --progresstext: #1C1C1C !important;
+  --figuretext: #FFFFFF !important;
 }
 
 .theme-light {
@@ -16,6 +17,11 @@ body {
   --background: #FFFFFF !important;
   --progress: #1C1C1C !important;
   --progresstext: #FFFFFF !important;
+  --figuretext: #1C1C1C !important;
+}
+
+.figure-caption {
+  color: var(--figuretext) !important;
 }
 
 .header__link {
@@ -76,6 +82,10 @@ body {
 
 .progress__p {
   color: var(--progresstext) !important;
+}
+
+.footer__copyright {
+  color: var(--text) !important;
 }
 
 html, #root {
