@@ -1,0 +1,45 @@
+.firstSlide__container {
+  min-height: 100vh;
+}
+
+.firstSlide__name {
+  font-family: "Bungee", cursive;
+  font-size: 2em;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #fcfe19;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media (min-width: 1200px) {
+  .firstSlide__name {
+    font-size: 3em;
+  }
+}
+
+.firstSlide__job {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #33ff12;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media (min-width: 1200px) {
+  .firstSlide__job {
+    font-size: 3em;
+  }
+}
+
+.firstSlide__img {
+  transform: rotate(-10deg) !important;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .firstSlide__img {
+    width: 160%;
+  }
+}
