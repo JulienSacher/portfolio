@@ -1,7 +1,6 @@
 .contactMe__title {
   font-family: "Bungee", cursive;
   font-size: 3em;
-  color: #ffffff;
   -webkit-text-stroke: 3px #fcfe19;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
@@ -23,7 +22,6 @@
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 2em;
   font-weight: 700;
-  color: #ffffff;
   -webkit-text-stroke: 1px #33ff12;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
@@ -32,7 +30,6 @@
 
 .contactMe__formContainer {
   width: 96%;
-  background: #1c1c1c !important;
   padding: 2em 2em !important;
   justify-content: center;
   flex-direction: column;

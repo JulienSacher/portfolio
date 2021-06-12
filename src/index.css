@@ -5,13 +5,77 @@ body {
 }
 
 .theme-dark {
-  --text: #F1F1F1 !important;
+  --text: #FFFFFF !important;
   --background: #1C1C1C !important;
+  --progress: #FFFFFF !important;
+  --progresstext: #1C1C1C !important;
 }
 
 .theme-light {
-  --text: #1C1C1C;
-  --background: #F1F1F1;
+  --text: #1C1C1C !important;
+  --background: #FFFFFF !important;
+  --progress: #1C1C1C !important;
+  --progresstext: #FFFFFF !important;
+}
+
+.header__link {
+  color: var(--text) !important;
+}
+
+.contactMe__formContainer {
+  background-color: var(--background);
+}
+
+.firstSlide__name {
+  color: var(--text) !important;
+}
+
+.firstSlide__job {
+  color: var(--text) !important;
+}
+
+.test {
+  background-color: var(--background) !important;
+}
+
+.progress__value {
+  background-color: var(--progress) !important;
+}
+
+.progress__value2 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value3 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value4 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value5 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value6 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value7 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value8 {
+  background-color: var(--progress) !important;
+}
+
+.progress__value9 {
+  background-color: var(--progress) !important;
+}
+
+.progress__p {
+  color: var(--progresstext) !important;
 }
 
 html, #root {
