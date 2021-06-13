@@ -1,21 +1,21 @@
 .header__logo {
-  width: 15%;
+  width: 4% !important;
 }
 @media (min-width: 768px) {
   .header__logo {
-    width: 10%;
+    width: 10% !important;
   }
 }
 
 @media (min-width: 992px) {
   .header__logo {
-    width: 8%;
+    width: 8% !important;
   }
 }
 
 @media (min-width: 1200px) {
   .header__logo {
-    width: 4%;
+    width: 35% !important;
   }
 }
 

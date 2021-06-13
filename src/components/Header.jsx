@@ -55,7 +55,9 @@ function Header() {
       fixed="top"
       className="header__container"
     >
-      <img className="header__logo ml-4" src={logoLight} alt="smooth scroll" />
+      <Navbar.Brand href="#home">
+      <img className="header__logo ml-2" src={logoLight} alt="smooth scroll" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="m-auto">
