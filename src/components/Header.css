@@ -37,14 +37,14 @@
   max-width: 100% !important;
 }
 
-.test {
+.header__container {
   display: block;
   width: 100%;
   border-bottom: none;
   position: relative;
 }
 
-.test:after {
+.header__container:after {
   content: "";
   background: -webkit-linear-gradient(
     left,
@@ -61,6 +61,10 @@
 
 .navbar {
   padding: 0 !important;
+}
+
+.btn {
+  padding: 0.150rem 0.450rem !important;
 }
 
 .header.light {

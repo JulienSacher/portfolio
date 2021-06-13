@@ -40,7 +40,7 @@ body {
   color: var(--text) !important;
 }
 
-.test {
+.header__container {
   background-color: var(--background) !important;
 }
 

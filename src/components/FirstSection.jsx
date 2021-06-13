@@ -3,10 +3,14 @@ import "./FirstSection.css";
 import { motion } from "framer-motion";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import avatarDark from "../img/avatar-dark.png";
+import { useTranslation } from "react-i18next";
+import i18n from 'i18next';
 
 function FirstSection() {
+  const { t } = useTranslation();
+
   const line1 = "Julien Sacher";
-  const line2 = "Web Developer";
+  const line2 = i18n.t('web_developer');
 
   const sentence = {
     hidden: { opacity: 1 },
@@ -29,7 +33,7 @@ function FirstSection() {
   return (
     <Container>
       <Row className="firstSlide__container d-flex align-items-center">
-        <Col sm={3}>
+        <Col sm={3} >
           <Image src={avatarDark} rounded className="firstSlide__img" />
         </Col>
 
