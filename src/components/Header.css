@@ -60,14 +60,6 @@
   padding: 0.15rem 0.45rem !important;
 }
 
-.header.light {
-  background: #f1f1f1 !important;
-}
-
-.header.dark {
-  background: #1c1c1c !important;
-}
-
 .lang__button {
   margin-left: 1.2rem !important;
 }
