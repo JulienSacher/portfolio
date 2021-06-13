@@ -31,6 +31,12 @@
   -webkit-text-fill-color: transparent !important;
 }
 
+@media (min-width: 992px) {
+  .header__link {
+    margin-left: 1.5rem;
+  }
+}
+
 .navbar {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -64,7 +70,7 @@
 }
 
 .btn {
-  padding: 0.150rem 0.450rem !important;
+  padding: 0.15rem 0.45rem !important;
 }
 
 .header.light {

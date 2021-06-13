@@ -62,7 +62,7 @@ function Header() {
           <Nav.Link
             href="#home"
             key={1}
-            className="header__link pl-4"
+            className="header__link text-center"
             onClick={handleClick}
           >
             {t("home")}
@@ -70,7 +70,7 @@ function Header() {
           <Nav.Link
             href="#about"
             key={2}
-            className="header__link pl-4"
+            className="header__link text-center"
             onClick={handleClick}
           >
             {t("about_me")}
@@ -78,7 +78,7 @@ function Header() {
           <Nav.Link
             href="#work"
             key={3}
-            className="header__link pl-4"
+            className="header__link text-center"
             onClick={handleClick}
           >
             {t("my_work")}
@@ -86,7 +86,7 @@ function Header() {
           <Nav.Link
             href="#contact"
             key={4}
-            className="header__link pl-4"
+            className="header__link text-center"
             onClick={handleClick}
           >
             {t("contact_me")}

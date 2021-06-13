@@ -48,10 +48,15 @@
 .container--toggle {
   display: grid;
   place-items: center;
-  min-height: 60px;
+  min-height: 40px;
   position: relative;
   grid-area: toggle;
-  margin: 20px;
+}
+
+@media (min-width: 992px) {
+  .container--toggle {
+    margin-left: 1rem;
+  }
 }
 
 /* background */
@@ -102,7 +107,8 @@
   transition: all 250ms ease-in;
   position: absolute;
   content: "";
-  box-shadow: var(--gray-dots) -12px 4px 0 1px, var(--gray-dots) -18px 12px 0 -1px;
+  box-shadow: var(--gray-dots) -12px 4px 0 1px,
+    var(--gray-dots) -18px 12px 0 -1px;
   left: 55px;
   top: 4px;
   width: 5px;
