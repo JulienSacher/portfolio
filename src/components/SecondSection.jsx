@@ -1,36 +1,27 @@
 import React from "react";
 import "./SecondSection.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 function SecondSection() {
+  const { t } = useTranslation();
   return (
     <Container className="aboutMe__height">
       <div>
-        <h2 className="aboutMe__title text-center pb-1">About Me</h2>
+        <h2 className="aboutMe__title text-center pb-1">{t("about_title")}</h2>
       </div>
       <div className="aboutMe__container">
         <Row className="d-flex align-items-center">
           <Col sm={6}>
             <p className="aboutMe__desc text-center pt-4 pl-5 pr-5 pb-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
-              blandit augue. Vivamus in lectus scelerisque, aliquet diam eu,
-              iaculis ipsum. Maecenas risus erat, malesuada at fermentum in,
-              malesuada id erat. Duis varius lacinia lacus commodo rhoncus. Sed
-              ornare non ligula sed tincidunt. Donec consectetur felis sed nunc
-              rhoncus sodales.
+              {t("desc_first_part")}
               <br />
               <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
-              blandit augue. Vivamus in lectus scelerisque, aliquet diam eu,
-              iaculis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Nullam at blandit augue. Vivamus in lectus scelerisque,
-              aliquet diam eu, iaculis ipsum.
+              {t("desc_second_part")}
             </p>
           </Col>
           <Col sm={6}>
-            <h2 className="aboutMe__sub text-center pt-3">
-              Languages & Frameworks
-            </h2>
+            <h2 className="aboutMe__sub text-center pt-3">{t("desc_sub")}</h2>
             <div className="progress ml-auto mr-auto mb-3">
               <div className="progress__value">
                 <p className="progress__p">HTML/CSS</p>

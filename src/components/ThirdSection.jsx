@@ -3,11 +3,13 @@ import "./ThirdSection.css";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import exotic from "../img/exotic-import.jpg";
 import snack from "../img/snack-atlass.jpg";
+import { useTranslation } from "react-i18next";
 
 function ThirdSection() {
+  const { t } = useTranslation();
   return (
     <Container className="thirdSlide__Container">
-      <h2 className="myWork__title text-center pb-1">My Work</h2>
+      <h2 className="myWork__title text-center pb-1">{t("work_title")}</h2>
       <Row className=" thirdSlide__imgContainer mt-4">
         <Col md={6}>
           <div className="thirdSlide__border">
