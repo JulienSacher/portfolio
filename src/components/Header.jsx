@@ -97,7 +97,7 @@ function Header() {
         <Nav className="mr-4 d-flex align-items-center">
           {languages.map(({ code, name, country_code }) => (
             <Button
-              className="mb-2 ml-2"
+              className="mb-2 lang__button"
               key={country_code}
               onClick={() => i18next.changeLanguage(code)}
             >

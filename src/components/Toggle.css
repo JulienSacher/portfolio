@@ -51,11 +51,12 @@
   min-height: 40px;
   position: relative;
   grid-area: toggle;
+  margin-left: 1.2rem !important;
 }
 
 @media (min-width: 992px) {
   .container--toggle {
-    margin-left: 1rem;
+    margin-left: 1rem !important;
   }
 }
 

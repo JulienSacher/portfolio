@@ -67,3 +67,13 @@
 .header.dark {
   background: #1c1c1c !important;
 }
+
+.lang__button {
+  margin-left: 1.2rem !important;
+}
+
+@media (min-width: 992px) {
+  .lang__button {
+    margin-left: .6rem !important;
+  }
+}
