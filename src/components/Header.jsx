@@ -92,19 +92,16 @@ function Header() {
             {t("contact_me")}
           </Nav.Link>
         </Nav>
-        <Nav className="mr-4 d-flex align-items-center">  
-              {languages.map(({ code, name, country_code }) => (
-                <Button
-                  className="mb-2 ml-2"
-                  key={country_code}
-                  onClick={() => i18next.changeLanguage(code)}
-                >
-                  <span
-                    className={`flag-icon  flag-icon-${country_code}`}
-                  ></span>
-                </Button>
-              ))}
-            
+        <Nav className="mr-4 d-flex align-items-center">
+          {languages.map(({ code, name, country_code }) => (
+            <Button
+              className="mb-2 ml-2"
+              key={country_code}
+              onClick={() => i18next.changeLanguage(code)}
+            >
+              <span className={`flag-icon  flag-icon-${country_code}`}></span>
+            </Button>
+          ))}
 
           <Toggle />
         </Nav>

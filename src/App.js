@@ -7,7 +7,6 @@ import ThirdSection from "./components/ThirdSection";
 import FourthSection from "./components/FourthSection";
 import Footer from "./components/Footer";
 import { keepTheme } from "./utils/themes";
-import { useTranslation } from "react-i18next";
 
 function App() {
   useEffect(() => {
