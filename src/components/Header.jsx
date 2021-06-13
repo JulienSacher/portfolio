@@ -53,7 +53,7 @@ function Header() {
       collapseOnSelect
       expand="lg"
       fixed="top"
-      className="header__container"
+      className="header__container d-flex"
     >
       <Navbar.Brand href="#home">
       <img className="header__logo ml-2" src={logoLight} alt="smooth scroll" />
