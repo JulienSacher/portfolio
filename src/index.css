@@ -5,19 +5,47 @@ body {
 }
 
 .theme-dark {
-  --text: #FFFFFF !important;
-  --background: #1C1C1C !important;
-  --progress: #FFFFFF !important;
-  --progresstext: #1C1C1C !important;
-  --figuretext: #FFFFFF !important;
+  --text: #ffffff !important;
+  --background: #1c1c1c !important;
+  --progress: #ffffff !important;
+  --progresstext: #1c1c1c !important;
+  --figuretext: #ffffff !important;
+  --textshadow: #fcfe19 !important;
+  --captionhover: #47ead0;
 }
 
 .theme-light {
-  --text: #1C1C1C !important;
-  --background: #FFFFFF !important;
-  --progress: #1C1C1C !important;
-  --progresstext: #FFFFFF !important;
-  --figuretext: #1C1C1C !important;
+  --text: #1c1c1c !important;
+  --background: #ffffff !important;
+  --progress: #1c1c1c !important;
+  --progresstext: #ffffff !important;
+  --figuretext: #1c1c1c !important;
+  --textshadow: #47ead0 !important;
+  --captionhover: #fcfe19;
+}
+
+.thirdSlide__caption:hover {
+  color: var(--captionhover) !important;
+}
+
+.footer__copyright {
+  -webkit-text-stroke: 2px var(--textshadow) !important;
+}
+
+.firstSlide__name {
+  -webkit-text-stroke: 3px var(--textshadow);
+}
+
+.aboutMe__title {
+  -webkit-text-stroke: 3px var(--textshadow) !important;
+}
+
+.myWork__title {
+  -webkit-text-stroke: 3px var(--textshadow) !important;
+}
+
+.contactMe__title {
+  -webkit-text-stroke: 3px var(--textshadow) !important;
 }
 
 .aboutMe__border {
@@ -96,13 +124,14 @@ body {
   color: var(--text) !important;
 }
 
-html, #root {
+html,
+#root {
   background-color: var(--background);
   color: var(--text);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 

@@ -1,7 +1,6 @@
 .myWork__title {
   font-family: "Bungee", cursive;
   font-size: 3em;
-  -webkit-text-stroke: 3px #fcfe19;
 }
 
 .thirdSlide__Container {
@@ -72,10 +71,6 @@
 .thirdSlide__caption {
   color: inherit !important;
   text-decoration: none !important;
-}
-
-.thirdSlide__caption:hover {
-  color: #47ead0 !important;
 }
 
 .figure {
