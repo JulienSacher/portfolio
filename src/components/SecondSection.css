@@ -34,7 +34,7 @@
 
 .aboutMe__height {
   min-height: 100vh;
-  padding-top: 9% !important;
+  padding-top: 5% !important;
 }
 
 @media (min-width: 1200px) {
