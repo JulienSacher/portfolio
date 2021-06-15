@@ -90,9 +90,16 @@
   position: relative;
   height: 1.7rem !important;
   display: flex;
-  width: 85%;
+  width: 100%;
   margin-bottom: 6%;
 }
+
+@media (min-width: 1200px) {
+  .progress {
+    width: 90%;
+  }
+}
+
 
 .progress__value {
   animation: load1 3s normal forwards;

@@ -13,9 +13,7 @@
 }
 
 .header__link:hover {
-  background: -webkit-linear-gradient(#fcfe19 35.92%, #47ead0 60%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #47ead0 !important;
 }
 
 @media (min-width: 992px) {

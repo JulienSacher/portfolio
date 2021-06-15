@@ -24,6 +24,10 @@ body {
   background-color: var(--background);
 }
 
+.thirdSlide__border {
+  background-color: var(--background);
+}
+
 .figure-caption {
   color: var(--figuretext) !important;
 }

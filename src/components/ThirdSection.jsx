@@ -12,6 +12,7 @@ function ThirdSection() {
       <h2 className="myWork__title text-center pb-1">{t("work_title")}</h2>
       <Row className=" thirdSlide__imgContainer mt-4">
         <Col md={6}>
+          <div className="thirdSlide__borderContainer">
           <div className="thirdSlide__border">
             <Figure className="position-relative">
               <Figure.Image
@@ -29,8 +30,10 @@ function ThirdSection() {
               </Figure.Caption>
             </Figure>
           </div>
+          </div>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="thirdSlide__imgMargin">
+          <div className="thirdSlide__borderContainer">
           <div className="thirdSlide__border">
             <Figure className="position-relative">
               <Figure.Image
@@ -46,6 +49,7 @@ function ThirdSection() {
                 </a>
               </Figure.Caption>
             </Figure>
+          </div>
           </div>
         </Col>
       </Row>
