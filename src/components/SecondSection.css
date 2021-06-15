@@ -34,6 +34,7 @@
 
 .aboutMe__height {
   min-height: 100vh;
+  padding-top: 7% !important;
 }
 
 @media (min-width: 1200px) {
@@ -45,7 +46,7 @@
 .aboutMe__title {
   font-family: "Bungee", cursive;
   font-size: 3em;
-  -webkit-text-stroke: 3px #fe193f;
+  -webkit-text-stroke: 3px #fcfe19;
 }
 
 .aboutMe__desc {  
