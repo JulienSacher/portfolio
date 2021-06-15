@@ -6,7 +6,6 @@
 
 .thirdSlide__Container {
   min-height: 100vh;
-  padding-top: 5%;
 }
 
 @media (min-width: 1200px) {
