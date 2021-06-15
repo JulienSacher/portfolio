@@ -13,43 +13,43 @@ function ThirdSection() {
       <Row className=" thirdSlide__imgContainer mt-4">
         <Col md={6}>
           <div className="thirdSlide__borderContainer">
-          <div className="thirdSlide__border">
-            <Figure className="position-relative">
-              <Figure.Image
-                alt=""
-                src={exotic}
-                className="img-fluid thirdSlide__img"
-              />
+            <div className="thirdSlide__border">
+              <Figure className="position-relative">
+                <Figure.Image
+                  alt=""
+                  src={exotic}
+                  className="img-fluid thirdSlide__img"
+                />
 
-              <Figure.Caption className="text-center">
-                <a href="#" className="thirdSlide__caption">
-                  Exotic Import
-                  <br />
-                  ReactJS/NodeJS
-                </a>
-              </Figure.Caption>
-            </Figure>
-          </div>
+                <Figure.Caption className="text-center">
+                  <a href="#" className="thirdSlide__caption">
+                    Exotic Import
+                    <br />
+                    ReactJS/NodeJS
+                  </a>
+                </Figure.Caption>
+              </Figure>
+            </div>
           </div>
         </Col>
         <Col md={6} className="thirdSlide__imgMargin">
           <div className="thirdSlide__borderContainer">
-          <div className="thirdSlide__border">
-            <Figure className="position-relative">
-              <Figure.Image
-                alt=""
-                src={snack}
-                className="img-fluid thirdSlide__img"
-              />
-              <Figure.Caption className="text-center">
-                <a href="#" className="thirdSlide__caption">
-                  Snack Atlass
-                  <br />
-                  Html/Sass
-                </a>
-              </Figure.Caption>
-            </Figure>
-          </div>
+            <div className="thirdSlide__border">
+              <Figure className="position-relative">
+                <Figure.Image
+                  alt=""
+                  src={snack}
+                  className="img-fluid thirdSlide__img"
+                />
+                <Figure.Caption className="text-center">
+                  <a href="#" className="thirdSlide__caption">
+                    Snack Atlass
+                    <br />
+                    Html/Sass
+                  </a>
+                </Figure.Caption>
+              </Figure>
+            </div>
           </div>
         </Col>
       </Row>

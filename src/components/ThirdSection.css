@@ -44,7 +44,7 @@
 @media (min-width: 1200px) {
   .thirdSlide__border {
     width: 98.3%;
-    margin: 0.3em 0.3em 0.3em 0.30em !important;
+    margin: 0.3em 0.3em 0.3em 0.3em !important;
   }
 }
 
@@ -64,7 +64,7 @@
 
 .thirdSlide__caption {
   color: inherit !important;
-  text-decoration:none !important;
+  text-decoration: none !important;
 }
 
 .thirdSlide__caption:hover {

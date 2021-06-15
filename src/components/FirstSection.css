@@ -1,39 +1,41 @@
 .firstSlide__container {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .firstSlide__name {
-    font-family: 'Bungee', cursive;
-    font-size: 2em;
-    color: #FFFFFF;
-    -webkit-text-stroke: 3px #FCFE19;
+  font-family: "Bungee", cursive;
+  font-size: 2em;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #fcfe19;
 }
 
 @media (min-width: 1200px) {
-    .firstSlide__name {
-        font-size: 3.0em;    }   
+  .firstSlide__name {
+    font-size: 3em;
+  }
 }
 
 .firstSlide__job {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-    color: #FFFFFF;
-    -webkit-text-stroke: 3px #33FF12;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #ffffff;
+  -webkit-text-stroke: 3px #33ff12;
 }
 
 @media (min-width: 1200px) {
-    .firstSlide__job {
-        font-size: 3.0em;    }   
+  .firstSlide__job {
+    font-size: 3em;
+  }
 }
 
 .firstSlide__img {
-    transform: rotate(-10deg) !important;
-    width:90%;
+  transform: rotate(-10deg) !important;
+  width: 90%;
 }
 
 @media (min-width: 768px) {
-    .firstSlide__img {
-        width: 160%;
-    }   
+  .firstSlide__img {
+    width: 160%;
+  }
 }

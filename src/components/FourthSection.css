@@ -90,9 +90,8 @@
 
 .fourthSection__container {
   min-height: 100vh;
-  padding-top: 8%;
+  padding-top: 7%;
 }
-
 
 @media (min-width: 1200px) {
   .fourthSection__container {

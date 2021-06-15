@@ -39,7 +39,7 @@
 
 @media (min-width: 1200px) {
   .aboutMe__height {
-    padding-top: 12% !important;
+    padding-top: 7% !important;
   }
 }
 
@@ -49,7 +49,7 @@
   -webkit-text-stroke: 3px #fcfe19;
 }
 
-.aboutMe__desc {  
+.aboutMe__desc {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -86,7 +86,6 @@
     width: 90%;
   }
 }
-
 
 .progress__value {
   animation: load1 3s normal forwards;

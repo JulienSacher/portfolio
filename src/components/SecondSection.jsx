@@ -69,7 +69,7 @@ function SecondSection() {
             </div>
           </Col>
         </Row>
-        </div>
+      </div>
     </Container>
   );
 }
