@@ -98,3 +98,9 @@
     padding-top: 7% !important;
   }
 }
+
+@media (min-height: 900px) {
+  .fourthSection__container {
+    padding-top: 12% !important;
+  }
+}

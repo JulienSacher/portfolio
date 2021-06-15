@@ -9,8 +9,12 @@ function Footer() {
     <div className="footer__container">
       <Container>
         <Col className="d-flex justify-content-center pt-5 pb-2">
-          <LinkedInIcon className="mx-2" />
-          <GitHubIcon className="mx-2" />
+          <a href="https://www.linkedin.com/in/julien-sacher/" target="_blank">
+            <LinkedInIcon className="mx-2" />
+          </a>
+          <a href="https://github.com/JulienSacher" target="_blank">
+            <GitHubIcon className="mx-2" />
+          </a>
         </Col>
         <Col className="d-flex justify-content-center pb-5">
           <span className="footer__copyright">Julien Sacher © 2021</span>

@@ -15,6 +15,12 @@
   }
 }
 
+@media (min-height: 700px) {
+  .thirdSlide__Container {
+    padding-top: 12% !important;
+  }
+}
+
 .thirdSlide__imgContainer {
   height: 83% !important;
 }
