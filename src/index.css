@@ -20,6 +20,10 @@ body {
   --figuretext: #1C1C1C !important;
 }
 
+.aboutMe__border {
+  background-color: var(--background);
+}
+
 .figure-caption {
   color: var(--figuretext) !important;
 }

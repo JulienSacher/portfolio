@@ -11,9 +11,9 @@ function SecondSection() {
         <h2 className="aboutMe__title text-center pb-1">{t("about_title")}</h2>
       </div>
       <div className="aboutMe__container">
-        <Row className="d-flex align-items-center">
+        <Row className="d-flex align-items-center aboutMe__border">
           <Col sm={6}>
-            <p className="aboutMe__desc text-center pt-4 pl-5 pr-5 pb-2">
+            <p className="aboutMe__desc text-center pt-4 pl-1 pr-1 pb-2">
               {t("desc_first_part")}
               <br />
               <br />
@@ -69,7 +69,7 @@ function SecondSection() {
             </div>
           </Col>
         </Row>
-      </div>
+        </div>
     </Container>
   );
 }

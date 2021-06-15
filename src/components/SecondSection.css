@@ -1,5 +1,36 @@
 .aboutMe__container {
-  position: relative;
+  width: 100%;
+  background: -webkit-linear-gradient(#fcfe19 35.92%, #47ead0 60%);
+  border-radius: 40px;
+  padding: 0.1em 0.07em;
+}
+
+.aboutMe__border {
+  width: 97%;
+  padding: 1em 1em !important;
+  border-radius: 37px;
+  margin: 0.3em 0.3em 0.3em 0.3em !important;
+}
+
+@media (min-width: 768px) {
+  .aboutMe__border {
+    margin: 0.3em 0.3em 0.3em 0.3em !important;
+    width: 98.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutMe__border {
+    margin: 0.3em 0.3em 0.3em 0.3em !important;
+    width: 99%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutMe__border {
+    margin: 0.3em 0.3em 0.3em 0.3em !important;
+    width: 99.2%;
+  }
 }
 
 .aboutMe__height {
@@ -25,32 +56,17 @@
   }
 }
 
-.aboutMe__container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 40px;
-  padding: 0.3em;
-  background: linear-gradient(#47ead0 35.92%, #fcfe19 60%);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-}
-
 .aboutMe__title {
   font-family: "Bungee", cursive;
   font-size: 3em;
   -webkit-text-stroke: 3px #fcfe19;
 }
 
-.aboutMe__desc {
+.aboutMe__desc {  
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: 0.4px !important;
+  letter-spacing: 0.3px !important;
 }
 
 @media (min-width: 992px) {
