@@ -39,9 +39,9 @@
 }
 
 .thirdSlide__border {
-  width: 98.3%;
+  width: 98%;
   border-radius: 37px;
-  margin: 0.3em 0.3em 0.3em 0.21em !important;
+  margin: 0.3em 0.3em 0.3em 0.2em !important;
 }
 
 .thirdSlide__imgMargin {
@@ -56,7 +56,8 @@
 
 @media (min-width: 1200px) {
   .thirdSlide__border {
-    margin: 0.3em 0.3em 0.3em 0.3em !important;
+    width: 98.3%;
+    margin: 0.3em 0.3em 0.3em 0.30em !important;
   }
 }
 
