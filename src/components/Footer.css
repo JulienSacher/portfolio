@@ -37,16 +37,8 @@
   }
 }
 
-@media (min-width: 768px) {
-  .footer__container {
-    margin-top: 10% !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .footer__container {
-    margin-top: 10% !important;
-  }
+.footer__container {
+  margin-top: 10% !important;
 }
 
 a {
