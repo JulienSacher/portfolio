@@ -33,6 +33,9 @@
   width: 100%;
   border-bottom: none;
   position: relative;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
 .header__container:after {
