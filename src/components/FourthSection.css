@@ -90,19 +90,7 @@
 
 .fourthSection__container {
   min-height: 100vh;
-  padding-top: 13%;
-}
-
-@media (min-width: 768px) {
-  .fourthSection__container {
-    padding-top: 27% !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .fourthSection__container {
-    padding-top: 21% !important;
-  }
+  padding-top: 9%;
 }
 
 @media (min-width: 1200px) {

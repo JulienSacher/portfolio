@@ -7,7 +7,6 @@
 
 .aboutMe__border {
   width: 97%;
-  padding: 1em 1em !important;
   border-radius: 37px;
   margin: 0.3em 0.3em 0.3em 0.3em !important;
 }
@@ -35,19 +34,7 @@
 
 .aboutMe__height {
   min-height: 100vh;
-  padding-top: 13% !important;
-}
-
-@media (min-width: 768px) {
-  .aboutMe__height {
-    padding-top: 27% !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .aboutMe__height {
-    padding-top: 21% !important;
-  }
+  padding-top: 9% !important;
 }
 
 @media (min-width: 1200px) {
