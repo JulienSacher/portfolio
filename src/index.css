@@ -11,7 +11,7 @@ body {
   --progresstext: #1c1c1c !important;
   --figuretext: #ffffff !important;
   --textshadow: #fcfe19 !important;
-  --captionhover: #47ead0;
+  --iconhover: #47ead0;
 }
 
 .theme-light {
@@ -21,11 +21,15 @@ body {
   --progresstext: #ffffff !important;
   --figuretext: #1c1c1c !important;
   --textshadow: #47ead0 !important;
-  --captionhover: #fcfe19;
+  --iconhover: #33ff12;
+}
+
+.MuiSvgIcon-root:hover {
+  color: var(--iconhover);
 }
 
 .thirdSlide__caption:hover {
-  color: var(--captionhover) !important;
+  color: var(--iconhover) !important;
 }
 
 .footer__copyright {
