@@ -1,8 +1,8 @@
 import React from "react";
 import "./ThirdSection.css";
 import { Container, Row, Col, Figure } from "react-bootstrap";
-import exotic from "../img/exotic-import.jpg";
-import snack from "../img/snack-atlass.jpg";
+import monster from "../img/monstercat-logo.jpg";
+import studio from "../img/studio-logo.jpg";
 import { useTranslation } from "react-i18next";
 
 function ThirdSection() {
@@ -10,22 +10,22 @@ function ThirdSection() {
   return (
     <Container className="thirdSlide__Container">
       <h2 className="myWork__title text-center pb-1">{t("work_title")}</h2>
-      <Row className=" thirdSlide__imgContainer mt-4">
+      <Row className=" thirdSlide__imgContainer mt-4 d-flex">
         <Col md={6}>
           <div className="thirdSlide__borderContainer">
             <div className="thirdSlide__border">
               <Figure className="position-relative">
                 <Figure.Image
                   alt=""
-                  src={exotic}
+                  src={studio}
                   className="img-fluid thirdSlide__img"
                 />
 
                 <Figure.Caption className="text-center">
-                  <a href="#" className="thirdSlide__caption">
-                    Exotic Import
+                  <a href="https://github.com/JulienSacher/studio-ghilbli" target="_blank" className="thirdSlide__caption">
+                    Studio Ghibli
                     <br />
-                    ReactJS/NodeJS
+                    ReactJS
                   </a>
                 </Figure.Caption>
               </Figure>
@@ -38,14 +38,14 @@ function ThirdSection() {
               <Figure className="position-relative">
                 <Figure.Image
                   alt=""
-                  src={snack}
+                  src={monster}
                   className="img-fluid thirdSlide__img"
                 />
                 <Figure.Caption className="text-center">
-                  <a href="#" className="thirdSlide__caption">
-                    Snack Atlass
+                  <a href="https://monstercat-rebuild.netlify.app/" target="_blank" className="thirdSlide__caption">
+                    Monstercat Rebuild
                     <br />
-                    Html/Sass
+                    ReactJS/Sass
                   </a>
                 </Figure.Caption>
               </Figure>

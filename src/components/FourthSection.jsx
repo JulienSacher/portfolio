@@ -16,15 +16,15 @@ function FourthSection() {
       </h3>
       <Col className="d-flex justify-content-center">
         <div className="contactMe__container">
-          <Form className="contactMe__formContainer">
+          <Form action="POST" data_netlify="true" className="contactMe__formContainer">
             <Form.Group>
-              <Form.Control placeholder={i18n.t("name")} />
+              <Form.Control type="text" name="name" placeholder={i18n.t("name")} />
             </Form.Group>
             <Form.Group controlId="formBasicEmail">
-              <Form.Control type="email" placeholder="Email" />
+              <Form.Control type="email" name="email" placeholder="Email" />
             </Form.Group>
             <Form.Group className="contactMe__message">
-              <Form.Control as="textarea" rows={6} placeholder="Message" />
+              <Form.Control as="textarea" rows={6} type="text" name="message" placeholder="Message" />
             </Form.Group>
             <div className="d-flex justify-content-end">
               <Button variant="primary" type="submit">

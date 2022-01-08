@@ -68,6 +68,12 @@
   opacity: 0.3 !important;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle !important;
+}
+
 .thirdSlide__caption {
   color: inherit !important;
   text-decoration: none !important;
