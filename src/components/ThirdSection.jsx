@@ -22,7 +22,11 @@ function ThirdSection() {
                 />
 
                 <Figure.Caption className="text-center">
-                  <a href="https://github.com/JulienSacher/studio-ghilbli" target="_blank" className="thirdSlide__caption">
+                  <a
+                    href="https://github.com/JulienSacher/studio-ghilbli"
+                    target="_blank"
+                    className="thirdSlide__caption"
+                  >
                     Studio Ghibli
                     <br />
                     ReactJS
@@ -42,7 +46,11 @@ function ThirdSection() {
                   className="img-fluid thirdSlide__img"
                 />
                 <Figure.Caption className="text-center">
-                  <a href="https://monstercat-rebuild.netlify.app/" target="_blank" className="thirdSlide__caption">
+                  <a
+                    href="https://monstercat-rebuild.netlify.app/"
+                    target="_blank"
+                    className="thirdSlide__caption"
+                  >
                     Monstercat Rebuild
                     <br />
                     ReactJS/Sass

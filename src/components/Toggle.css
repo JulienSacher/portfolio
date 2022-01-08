@@ -108,8 +108,7 @@
   transition: all 250ms ease-in;
   position: absolute;
   content: "";
-  box-shadow: var(--gray-dots) -12px 4px 0 1px,
-    var(--gray-dots) -18px 12px 0 -1px;
+  box-shadow: var(--gray-dots) -12px 4px 0 1px, var(--gray-dots) -18px 12px 0 -1px;
   left: 55px;
   top: 4px;
   width: 5px;
