@@ -28,7 +28,7 @@ function FourthSection() {
       body: encode(data),
     })
       .then(() => setStatus(i18n.t("form_message")))
-      .catch((error) => setStatus("Form Submission Failed!"));
+      .catch((error) => setStatus("form_failed"));
 
     e.preventDefault();
   };
