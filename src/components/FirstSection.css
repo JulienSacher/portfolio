@@ -8,6 +8,12 @@
   color: #ffffff;
 }
 
+@media (max-width: 382px) {
+  .firstSlide__name {
+    font-size: 1.3em !important;
+  }
+}
+
 @media (max-width: 768px) {
   .firstSlide__name {
     font-size: 1.4em;
