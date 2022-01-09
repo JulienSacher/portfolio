@@ -41,6 +41,12 @@
   margin-top: 5% !important;
 }
 
+@media (min-width: 400px) {
+    .figure-caption {
+      bottom: 28% !important;
+    }
+  }
+
 @media (min-width: 768px) {
   .thirdSlide__imgMargin {
     margin-top: 0% !important;
@@ -52,7 +58,7 @@
 
 @media (min-width: 992px) {
   .figure-caption {
-    bottom: 34% !important;
+    bottom: 33% !important;
   }
 
 }
