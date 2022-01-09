@@ -14,10 +14,6 @@ function Contact() {
     return <p>{t("form_message")}</p>;
   };
 
-  const Error = () => {
-    return <p>{t("form_failed")}</p>;
-  };
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -88,7 +84,7 @@ function Contact() {
                 {t("send")}
               </Button>
             </div>
-            {result ? <Result /> : <Error />}
+            {result ? <Result /> : null}
           </Form>
         </div>
       </Col>
