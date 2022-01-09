@@ -13,6 +13,6 @@
   "contact_sub": "Vous Avez Une Question Ou Souhaitez Travailler Ensemble ?",
   "name": "Nom",
   "send": "ENVOYER",
-  "form_message": "Votre Message a bien été envoyé",
-  "form_failed": "Une erreur s'est produite, votre Message n'a pas été envoyé"
+  "form_message": "Votre Message a bien été envoyé.",
+  "form_failed": "Une erreur s'est produite, votre Message n'a pas été envoyé."
 }

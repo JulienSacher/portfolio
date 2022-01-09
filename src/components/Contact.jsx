@@ -11,7 +11,7 @@ function Contact() {
   const [result, showResult] = useState(false);
 
   const Result = () => {
-    return <p>{t("form_message")}</p>;
+    return <p className="text-center form__message">{t("form_message")}</p>;
   };
 
   const form = useRef();
