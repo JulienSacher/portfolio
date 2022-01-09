@@ -41,9 +41,16 @@
   margin-top: 5% !important;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 350px) {
+  .figure-caption {
+    bottom: 24% !important;
+  }
+}
+
+
+@media (min-width: 500px) {
     .figure-caption {
-      bottom: 25% !important;
+      bottom: 32% !important;
     }
   }
 
