@@ -23,7 +23,7 @@ function ThirdSection() {
 
                 <Figure.Caption className="text-center">
                   <a
-                    href="https://github.com/JulienSacher/studio-ghilbli"
+                    href="https://studio-ghibli-anime-movies.netlify.app/"
                     target="_blank"
                     className="thirdSlide__caption"
                   >
