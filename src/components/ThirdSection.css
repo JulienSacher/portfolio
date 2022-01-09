@@ -47,6 +47,11 @@
   }
 }
 
+@media (min-width: 414px) {
+  .figure-caption {
+    bottom: 28% !important;
+  }
+}
 
 @media (min-width: 500px) {
     .figure-caption {

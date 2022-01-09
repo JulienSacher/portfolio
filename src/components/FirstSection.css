@@ -8,6 +8,12 @@
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .firstSlide__name {
+    font-size: 1.4em;
+  }
+}
+
 @media (min-width: 1200px) {
   .firstSlide__name {
     font-size: 3em;
@@ -28,6 +34,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .firstSlide__job {
+    font-size: 1.5em;
+  }
+}
+
 .firstSlide__img {
   transform: rotate(-10deg) !important;
   width: 90%;
@@ -36,5 +48,14 @@
 @media (min-width: 768px) {
   .firstSlide__img {
     width: 160%;
+  }
+}
+
+@media (max-width: 576px) {
+  .firstSlide__img {
+    padding-top: 15%;
+  }
+  .load-screen--message {
+    padding-top: 15%;
   }
 }

@@ -16,7 +16,7 @@ function ThirdSection() {
             <div className="thirdSlide__border">
               <Figure className="position-relative">
                 <Figure.Image
-                  alt=""
+                  alt="movie image"
                   src={studio}
                   className="img-fluid thirdSlide__img"
                 />
