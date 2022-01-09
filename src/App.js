@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import FirstSection from "./components/FirstSection";
-import SecondSection from "./components/SecondSection";
-import ThirdSection from "./components/ThirdSection";
-import FourthSection from "./components/FourthSection";
+import Home from "./components/Home";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { keepTheme } from "./utils/themes";
 
@@ -17,16 +17,16 @@ function App() {
     <div className="app" id="home">
       <Header />
       <div className="home">
-        <FirstSection />
+        <Home />
       </div>
       <div className="about" id="about">
-        <SecondSection />
+        <Skills />
       </div>
       <div className="work" id="work">
-        <ThirdSection />
+        <Portfolio />
       </div>
       <div className="contact" id="contact">
-        <FourthSection />
+        <Contact />
       </div>
       <Footer />
     </div>

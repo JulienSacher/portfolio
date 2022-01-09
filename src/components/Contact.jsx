@@ -1,50 +1,47 @@
-import React, { useState } from "react";
-import "./FourthSection.css";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import "./Contact.css";
 import { Container, Col, Form, Button } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 
-function FourthSection() {
+function Contact() {
   const { t } = useTranslation();
 
-  const [name, setName] = useState("");
-  const [status, setStatus] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [result, showResult] = useState(false);
 
-  const encode = (data) => {
-    const formData = new FormData();
-    Object.keys(data).forEach((k) => {
-      formData.append(k, data[k]);
-    });
-    return formData;
+  const Result = () => {
+    return <p>{t("form_message")}</p>;
   };
 
-  const handleSubmit = (e) => {
-    const data = { "form-name": "contact", name, email, message };
+  const Error = () => {
+    return <p>{t("form_failed")}</p>;
+  };
 
-    fetch("/", {
-      method: "POST",
-      body: encode(data),
-    })
-      .then(() => setStatus(i18n.t("form_message")))
-      .catch((error) => setStatus("form_failed"));
+  const form = useRef();
 
+  const sendEmail = (e) => {
     e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mk2jdkc",
+        "template_r71uqmr",
+        form.current,
+        "user_j6xUNfYpB2zJIEi7BRkMa"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    showResult(true);
   };
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    if (name === "name") {
-      return setName(value);
-    }
-    if (name === "email") {
-      return setEmail(value);
-    }
-    if (name === "message") {
-      return setMessage(value);
-    }
-  };
   return (
     <Container className="fourthSection__container">
       <h2 className="contactMe__title text-center pb-1">
@@ -56,26 +53,24 @@ function FourthSection() {
       <Col className="d-flex justify-content-center">
         <div className="contactMe__container">
           <Form
-            onSubmit={handleSubmit}
-            name="contactform"
             className="contactMe__formContainer"
+            ref={form}
+            onSubmit={sendEmail}
           >
             <Form.Group>
               <Form.Control
                 type="text"
-                name="name"
-                value={name}
-                onChange={handleChange}
+                name="fullName"
                 placeholder={i18n.t("name")}
+                required
               />
             </Form.Group>
             <Form.Group controlId="formBasicEmail">
               <Form.Control
                 type="email"
                 name="email"
-                value={email}
-                onChange={handleChange}
                 placeholder="Email"
+                required
               />
             </Form.Group>
             <Form.Group className="contactMe__message">
@@ -83,18 +78,17 @@ function FourthSection() {
                 as="textarea"
                 rows={6}
                 type="text"
-                value={message}
-                onChange={handleChange}
                 name="message"
                 placeholder="Message"
+                required
               />
             </Form.Group>
             <div className="d-flex justify-content-end">
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" value="Send">
                 {t("send")}
               </Button>
             </div>
-            <h3>{status}</h3>
+            {result ? <Result /> : <Error />}
           </Form>
         </div>
       </Col>
@@ -102,4 +96,4 @@ function FourthSection() {
   );
 }
 
-export default FourthSection;
+export default Contact;

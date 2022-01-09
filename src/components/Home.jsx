@@ -1,12 +1,12 @@
 import React from "react";
-import "./FirstSection.css";
+import "./Home.css";
 import { motion } from "framer-motion";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import avatarDark from "../img/avatar-dark.png";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 
-function FirstSection() {
+function Home() {
   const { t } = useTranslation();
 
   const line1 = "Julien Sacher";
@@ -74,4 +74,4 @@ function FirstSection() {
   );
 }
 
-export default FirstSection;
+export default Home;

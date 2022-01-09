@@ -1,9 +1,9 @@
 import React from "react";
-import "./SecondSection.css";
+import "./Skills.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
-function SecondSection() {
+function Skills() {
   const { t } = useTranslation();
   return (
     <Container className="aboutMe__height">
@@ -74,4 +74,4 @@ function SecondSection() {
   );
 }
 
-export default SecondSection;
+export default Skills;

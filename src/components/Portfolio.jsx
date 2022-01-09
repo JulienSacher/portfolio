@@ -1,11 +1,11 @@
 import React from "react";
-import "./ThirdSection.css";
+import "./Portfolio.css";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import monster from "../img/monstercat-logo.jpg";
 import studio from "../img/studio-logo.jpg";
 import { useTranslation } from "react-i18next";
 
-function ThirdSection() {
+function Portfolio() {
   const { t } = useTranslation();
   return (
     <Container className="thirdSlide__Container">
@@ -65,4 +65,4 @@ function ThirdSection() {
   );
 }
 
-export default ThirdSection;
+export default Portfolio;
